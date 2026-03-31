@@ -12,4 +12,7 @@ def divide(a, b):
     if b==0:
         raise ValueError("Division par zero est impossible ")
     return a / b
+
+def power(base, exp):
+    return base ** exp
     
